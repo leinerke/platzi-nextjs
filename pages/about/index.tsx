@@ -1,13 +1,9 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import React from 'react';
 
-const AboutPage = () => {
-  return (
-    <section>
-      <Navbar />
-      <h1>Sobre los aguacates</h1>
-    </section>
-  )
-}
+const AboutPage = () => (
+  <section>
+    <h1>Sobre los aguacates</h1>
+  </section>
+);
 
-export default AboutPage
+export default AboutPage;
