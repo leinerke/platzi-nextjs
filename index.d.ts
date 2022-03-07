@@ -25,10 +25,21 @@ type TProduct = {
   attributes: TProductAttributes
 }
 
+type TFacts = {
+  title: string,
+  content: string
+}
+
 type TAPIAVODetailResponse = TProduct
 
 type TAPIAvoResponse = {
-  lenght: number
+  length: number
   data: TProduct[]
+  error?: string
+}
+
+type TAPIFactsResponse = {
+  length: number
+  data: TFacts[]
   error?: string
 }
